@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "chai-http": "^4.4.0",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.10"
+  }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <form>
+            <input type="number" id="Age" class="input"  min="17" max="90" placeholder="Age(Years)" required/>
+            <p>Enter your age</p>
+        </form>
+        <form>
+            <input type="text" id="Name" class="input" placeholder="name" required/>
+            <p>Enter your name</p>
+        </form>
+        <form>
+            <input type="range" class="inputRange" min="0" max="100" id="inputRange" step="1"/>
+            <p>How successful are you</p>
+        </form>
+
+        <form>
+            <input type="date" id='BirthDate' class="input" placeholder="text" required/>
+            <p>What's your birthdays date</p>
+        </form>
+        <form >
+            <p> What's your ed. programm</p>
+            <div>
+            <input  type="radio" id="ITBA" name="optionsGroup"  value="ITBA" required/>
+            <label for="ITBA">ITBA</label> 
+        </div>
+        <div>
+            <input  type="radio" id="BE" name="optionsGroup"  value="BE" required/>
+            <label for="BE">BE</label> 
+        </div>
+        <div>
+            <input  type="radio" id="BDE" name="optionsGroup"  value="BDE" required/>
+            <label for="BDE">BDE</label> 
+        </div>
+        </form>
+        <form>
+            <input type="email" id="Email" class="input" placeholder="name@gmail.com" required/>
+            <p>Enter your email</p>
+        </form>
+
+        <form>
+            <input type="password" id="Password" class="input" placeholder="At least:12 symbols, 1 capital, 1 small, 1 number, 1 special" required/>
+            <input type="password" id='PasswordConfirm' class="input" placeholder="confirm password" required/>
+            <p>Enter strong password</p>
+        </form>
+        <button class="button" onclick="Submit()">Submit</button>
+
+        <h3 style="text-align: center;" id="finalText"></h3>
+</div>
+<script src="scripts/script.js"></script> 
+</body>
+</html>

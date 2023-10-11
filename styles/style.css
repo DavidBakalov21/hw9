@@ -1,0 +1,50 @@
+.input{
+    border-radius: 10px;
+    width: 30%;
+    height: 25px;
+    background-color: white;
+    border:solid 4px blue ;
+    margin-top: 2%;
+}
+input:active {
+    background-color: rgb(63, 158, 231);
+
+}
+input:focus {
+ 
+
+    background-color: rgb(88, 66, 150);
+   color: white;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    
+}
+.inputRange{
+    margin-top: 2%;
+    width: 30%;
+}
+form{
+    border:solid 1px blue ;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    margin-top: 3%;
+    border: solid 4px blue;
+    border-radius: 10px;
+}
+input:invalid {
+    border-color: rgb(255, 0, 0);
+}
+input[type="radio"]:invalid + label {
+    color: red;
+}
+input:valid {
+    border-color: blue;
+}
