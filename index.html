@@ -11,10 +11,13 @@
         <form>
             <input type="number" id="Age" class="input"  min="17" max="90" placeholder="Age(Years)" required/>
             <p>Enter your age</p>
+            <h3 id="hintAge" style="color:red; display: none;">Age should be between 17 and 90.</h3>
         </form>
         <form>
             <input type="text" id="Name" class="input" placeholder="name" required/>
+
             <p>Enter your name</p>
+            <h3 id="hintName" style="color:red; display: none;">Please enter your name.</h3>
         </form>
         <form>
             <input type="range" class="inputRange" min="0" max="100" id="inputRange" step="1"/>
@@ -24,6 +27,7 @@
         <form>
             <input type="date" id='BirthDate' class="input" placeholder="text" required/>
             <p>What's your birthdays date</p>
+            <h3 id="hintBirthDate" style="color:red; display: none;">Please select date.</h3>
         </form>
         <form >
             <p> What's your ed. programm</p>
@@ -39,15 +43,18 @@
             <input  type="radio" id="BDE" name="optionsGroup"  value="BDE" required/>
             <label for="BDE">BDE</label> 
         </div>
+        <h3 id="hintRad" style="color:red; display: none;">Please select an education program.</h3>
         </form>
         <form>
             <input type="email" id="Email" class="input" placeholder="name@gmail.com" required/>
             <p>Enter your email</p>
+            <h3 id="hintEmail" style="color:red; display: none;">Your email must be like: text@gmail.com</h3>
         </form>
 
         <form>
             <input type="password" id="Password" class="input" placeholder="At least:12 symbols, 1 capital, 1 small, 1 number, 1 special" required/>
             <input type="password" id='PasswordConfirm' class="input" placeholder="confirm password" required/>
+            <h3 id="hintPassword" style="color:red; display: none;"> These password inputs must be: identical, have at least 12 symbols, 1 capital leter, 1 small leter, 1 number, 1 special symbol </h3>
             <p>Enter strong password</p>
         </form>
         <button class="button" onclick="Submit()">Submit</button>
